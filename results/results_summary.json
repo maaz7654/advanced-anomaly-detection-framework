@@ -1,0 +1,47 @@
+{
+  "model_architecture": {
+    "n_features": 38,
+    "window_size": 100,
+    "d_model": 128,
+    "n_heads": 8,
+    "n_layers": 4,
+    "total_parameters": 9634509
+  },
+  "training_config": {
+    "epochs": 40,
+    "batch_size": 64,
+    "learning_rate": 0.0005,
+    "optimizer": "AdamW",
+    "loss_weights": {
+      "reconstruction": 1.0,
+      "contrastive": 0.2,
+      "gan": 0.05
+    }
+  },
+  "dataset": {
+    "type": "Synthetic SMD-like",
+    "train_samples": 30000,
+    "test_samples": 5000,
+    "n_features": 38,
+    "anomaly_ratio": 0.1,
+    "train_windows": 599,
+    "test_windows": 99
+  },
+  "final_results": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1_score": 0.967741935483871,
+    "roc_auc": 0.9984126984126984,
+    "confusion_matrix": [
+      [
+        83,
+        1
+      ],
+      [
+        0,
+        15
+      ]
+    ]
+  },
+  "best_f1_score": 0.967741935483871
+}

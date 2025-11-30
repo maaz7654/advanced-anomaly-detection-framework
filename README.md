@@ -367,14 +367,6 @@ advanced-anomaly-detection-framework/
 3. Chen et al. "A Simple Framework for Contrastive Learning" (2020)
 4. Su et al. "Robust Anomaly Detection for Multivariate Time Series" (2019)
 
----
-
-## 📧 Contact
-
-**Author:** [Your Name]  
-**Email:** your.email@example.com  
-**GitHub:** [@yourusername](https://github.com/yourusername)  
-**LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---
 
